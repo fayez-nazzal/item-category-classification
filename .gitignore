@@ -2,3 +2,5 @@ ml/*.csv
 node_modules
 dist
 config.py
+.env
+__pycache__
