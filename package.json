@@ -1,0 +1,18 @@
+{
+  "name": "item-category-classification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fayez-nazzal/item-category-classification",
+  "author": "Fayez Nazzal <soulldev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "scripts": {},
+  "lint-staged": {
+    "**/*.{js,jsx}": [
+      "yarn lint",
+      "yarn format"
+    ]
+  }
+}

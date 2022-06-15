@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', 'google'],
+  extends: ['preact', 'google', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -12,10 +12,8 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react'],
   rules: {
     'comma-dangle': 0,
-    'prettier/prettier': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
   },
 };
