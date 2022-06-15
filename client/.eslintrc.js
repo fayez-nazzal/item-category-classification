@@ -15,5 +15,6 @@ module.exports = {
   rules: {
     'comma-dangle': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
+    'require-jsdoc': 0,
   },
 };
