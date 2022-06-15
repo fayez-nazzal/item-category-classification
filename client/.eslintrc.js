@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['dist', '@emotion'],
+  ignorePatterns: ['dist', '@emotion', 'prettier'],
   env: {
     browser: true,
     es2021: true,
@@ -13,5 +13,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'comma-dangle': 0,
+    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
+  },
 };
