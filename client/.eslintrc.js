@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['dist'],
+  ignorePatterns: ['dist', '@emotion'],
   env: {
     browser: true,
     es2021: true,
